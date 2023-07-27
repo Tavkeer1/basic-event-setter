@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.926);
+    /* background: url(./asset/mountain.jpg); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    place-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap:4vw;
+    box-shadow:  0 0 12px rgb(18, 236, 18);
+    padding:3rem;
+}
+.main{
+    display:block;
+    
+}
+.main2{
+    display: none;
+    
+}
+
+h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing:0.4vw;
+    font-size:2.5rem;
+    letter-spacing:0.4vw;
+    color:rgba(227, 229, 240, 0.945);
+    font-weight:800;
+    color:rgb(17, 226, 17);
+}
+.settings .reload{
+    display:none;
+}
+.setting{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content:end;
+    align-items: end;
+    gap:1vw;
+    width:100%;
+}
+.setting i{
+    display:inline;
+    font-size:2.5rem;
+}
+#datedob{
+    outline:none;
+    padding:1vw;
+    border-radius:2vw;
+    border:none;
+    margin-right: 1vw;
+}
+#dobbtn{
+    color:black;
+    font-weight:700;
+    background-color:aquamarine;
+    padding:1vw;
+    border-radius: 2vw;
+    border:none;
+}
+/* toggle class */
+.class{
+    display:none;
+}
+/* ////// */
+.timer{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    /* border:2px solid red; */
+    gap:3vw;
+    text-align: center;
+}
+.div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:7vw;
+    width:7vw;
+    border:3px solid rgb(9, 61, 9);
+    border-radius:0vw;
+    box-shadow: 0 0 9px rgb(31, 183, 23);
+    gap:1vw;
+    background-color:rgba(1, 16, 19, 0.292) ;
+    padding:5rem;
+}
+h2,h3{
+    font-size:2rem;
+    color: rgb(19, 223, 19);
+}
+i{
+    color:white;
+}
+
+
+@media (max-width:1000px){
+    
+    h1{
+        font-size:0.5rem;
+    }
+    body{
+        background: linear-gradient(to top, #000, #ed0404)
+    }
+    main{
+        box-shadow: 0 0 15px rgb(9, 1, 1);
+        padding:5vw;
+    }
+  
+    .div{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       width:12vw;
+       height:12vw;
+       padding:1.4rem;
+       border:1px solid  red;
+       background-color:rgba(0, 0, 0, 0.832);
+       box-shadow: 7px 8px 3px rgba(0, 0, 0, 0.671);
+       border-radius: 0px;
+
+    }
+    h2,h3{
+        font-size:0.7rem;
+        color:red;
+        
+    }
+    i{
+        font-size:3vw;
+        color:white
+    }
+    h1{
+        color:black;
+        font-size:11px;
+    }
+}
