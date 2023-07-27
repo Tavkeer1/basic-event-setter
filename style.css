@@ -116,6 +116,7 @@ i{
     main{
         box-shadow: 0 0 15px rgb(9, 1, 1);
         padding:5vw;
+        margin:auto;
     }
   
     .div{
