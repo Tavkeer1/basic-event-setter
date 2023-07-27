@@ -111,7 +111,8 @@ i{
         font-size:0.5rem;
     }
     body{
-        background: linear-gradient(to top, #000, #ed0404)
+        background: linear-gradient(to top, #000, #ed0404);
+        padding:1vw;
     }
     main{
         box-shadow: 0 0 15px rgb(9, 1, 1);
